@@ -1,8 +1,23 @@
 aid: main-street-hub
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/main-street-hub.png
 name: Main Street Hub
-description: 'Main Street Hub is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Main Street Hub was a marketing platform for local and small businesses, founded in Austin,
+  Texas around 2010, that managed social media, review sites, and online customer engagement on behalf
+  of restaurants, salons, and other Main Street merchants. Backed by Bessemer Venture Partners, it was
+  acquired by GoDaddy in 2018 and folded into the GoDaddy Social product; the former mainstreethub.com
+  domain now 301-redirects to godaddy.com/online-marketing/godaddy-social. No independent developer
+  portal, OpenAPI, or public API surface remains, and api.mainstreethub.com does not resolve.'
 url: https://raw.githubusercontent.com/api-evangelist/main-street-hub/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +25,31 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: godaddy
+x-successor-product: godaddy-social
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Marketing
+- Social Media
+- Small Business
+- Local Business
+- Reviews
+- Acquired
+common:
+- type: Website
+  url: https://www.godaddy.com/online-marketing/godaddy-social
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
