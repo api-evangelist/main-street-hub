@@ -59,6 +59,11 @@ tags_raw:
 - Reviews
 - Acquired
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/godaddy/
+  name: GoDaddy
+  x-relationship: acquired
+  x-evidence: "Backed by Bessemer Venture Partners, it was acquired by GoDaddy in 2018 and folded into the GoDaddy Social product; the former mainstreethub."
 - type: Website
   url: https://www.godaddy.com/online-marketing/godaddy-social
 apis: []
