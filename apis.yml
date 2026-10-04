@@ -45,7 +45,7 @@ modified: '2026-07-20'
 tags:
 - Company
 - Marketing
-- Social-Media
+- Social Media
 - Small Business
 - Local Business
 - Reviews
@@ -58,6 +58,7 @@ tags_raw:
 - Local Business
 - Reviews
 - Acquired
+- Social-Media
 common:
 - type: ParentCompany
   url: https://apis.io/providers/godaddy/
